@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: aqua;
+        }
+
+        .main {
+            height: 100%;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .secondary {
+            height: 80%;
+            width: 80%;
+        }
+
+        .section {
+            height: 10%;
+            background-color: blue;
+        }
+
+        .grid {
+            height: 80%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(7, auto);
+            grid-template-rows: repeat(6, auto);
+            background-color: white;
+        }
+
+        img {
+            height: 50%;
+        }
+
+        .item {
+            height: 100%;
+            width: 100%;
+        }
+
+        .day {
+            font-weight: bold;
+        }
+
+        .fade {
+            color: gray;
+        }
+
+        .item:hover {
+            background-color: blue;
+        }
+
+        #date {
+            width: 50%;
+            height: 5%;
+            margin: 1%;
+        }
+
+        p, label {
+            font-size: 24px;
+        }
+
+        @media(max-width:680px) {
+            p {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main flex column">
+        <label for="date">Date</label>
+      <input id="date">
+      <div class="secondary">
+        <div class="section flex">
+        </div>
+        <div class="grid">
+           <div class="item flex">
+            <p class="day">Su</p>
+           </div>
+           <div class="item flex">
+            <p class="day">Mo</p>
+           </div>
+           <div class="item flex">
+            <p class="day">Tu</p>
+           </div>
+           <div class="item flex">
+            <p class="day">We</p>
+           </div>
+           <div class="item flex">
+            <p class="day">Th</p>
+           </div>
+           <div class="item flex">
+            <p class="day">Fr</p>
+           </div>
+           <div class="item flex">
+            <p class="day">Sa</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">29</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">30</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">31</p>
+           </div>
+           <div class="item flex">
+            <p>1</p>
+           </div>
+           <div class="item flex">
+            <p>2</p>
+           </div>
+           <div class="item flex">
+            <p>3</p>
+           </div>
+           <div class="item flex">
+            <p>4</p>
+           </div>
+           <div class="item flex">
+            <p>5</p>
+           </div>
+           <div class="item flex">
+            <p>6</p>
+           </div>
+           <div class="item flex">
+            <p>7</p>
+           </div>
+           <div class="item flex">
+            <p>8</p>
+           </div>
+           <div class="item flex">
+            <p>9</p>
+           </div>
+           <div class="item flex">
+            <p>10</p>
+           </div>
+           <div class="item flex">
+            <p>11</p>
+           </div>
+           <div class="item flex">
+            <p>12</p>
+           </div>
+           <div class="item flex">
+            <p>13</p>
+           </div>
+           <div class="item flex">
+            <p>14</p>
+           </div>
+           <div class="item flex">
+            <p>15</p>
+           </div>
+           <div class="item flex">
+            <p>16</p>
+           </div>
+           <div class="item flex">
+            <p>17</p>
+           </div>
+           <div class="item flex">
+            <p>18</p>
+           </div>
+           <div class="item flex">
+            <p>19</p>
+           </div>
+           <div class="item flex">
+            <p>20</p>
+           </div>
+           <div class="item flex">
+            <p>21</p>
+           </div>
+           <div class="item flex">
+            <p>22</p>
+           </div>
+           <div class="item flex">
+            <p>23</p>
+           </div>
+           <div class="item flex">
+            <p>24</p>
+           </div>
+           <div class="item flex">
+            <p>25</p>
+           </div>
+           <div class="item flex">
+            <p>26</p>
+           </div>
+           <div class="item flex">
+            <p>27</p>
+           </div>
+           <div class="item flex">
+            <p>28</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">1</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">2</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">3</p>
+           </div>
+           <div class="item flex">
+            <p class="fade">4</p>
+           </div>
+        </div>
+        <div class="section">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
